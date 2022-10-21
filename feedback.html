@@ -1,0 +1,75 @@
+{% load static %}
+{%include 'navbar.html' %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact US Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/
+font-awesome.min.css">
+    <link rel="stylesheet" href="{%static 'styles/fstyle.css'%}">
+
+</head>
+
+<body>
+    <center>
+        <div class="content">
+            <h2>Give us your valuable feedback</h2>
+            <p><b>A little progress each day adds up to big results.</b><br><br>Your feedback helps to improve this
+                website.<br><br> “We all need people who will give us feedback. That’s how we improve.”
+                - Bill Gates.</p>
+        </div>
+    </center>
+    <div class="contact">
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class=" text">
+                        <h3>Address</h3>
+                        <p>GVPCEW<br>Madhurwada, Visakhapatnam,<br> Andhra Pradesh<br>530048</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>9347665827</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>kbgayathri@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form method="post" action="#">
+
+                    <div class="inputBox">
+                        <input type="text" name="" placeholder="Full Name" required="required">
+
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" placeholder="Email" required="required">
+
+                    </div>
+                    <div class="inputBox">
+                        <input type="textarea" name="" placeholder="Type Message....." required="required">
+
+                    </div>
+
+                    <div class=" inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
